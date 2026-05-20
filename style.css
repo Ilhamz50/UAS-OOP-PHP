@@ -1,0 +1,40 @@
+/* =========================================
+   1. GLOBAL & RESET SETTINGS
+   ========================================= */
+* { 
+    box-sizing: border-box; 
+    margin: 0; 
+    padding: 0; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+body { 
+    background: #f4f7f6; 
+}
+
+/* =========================================
+   2. STYLE UNTUK PANEL UTAMA (INDEX.PHP)
+   ========================================= */
+.body-utama { padding: 20px; }
+.card { background: white; padding: 25px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); width: 95%; margin: auto; }
+table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+th, td { padding: 12px; border-bottom: 1px solid #eee; text-align: left; }
+th { background: #4CAF50; color: white; }
+.btn-simpan { background: #2196F3; color: white; border: none; padding: 7px 12px; border-radius: 4px; cursor: pointer; font-weight: bold; }
+.btn-hapus { background: #f44336; color: white; border: none; padding: 7px 12px; border-radius: 4px; text-decoration: none; font-size: 13px; font-weight: bold; }
+select { padding: 6px; border: 1px solid #ccc; border-radius: 4px; }
+
+/* =========================================
+   3. STYLE UNTUK HALAMAN LOGIN (LOGIN.PHP)
+   ========================================= */
+.body-login { display: flex; justify-content: center; align-items: center; height: 100vh; }
+.login-container { background: white; padding: 40px; border-radius: 15px; box-shadow: 0 10px 25px rgba(0,0,0,0.05); width: 100%; max-width: 400px; text-align: center; border: 1px solid #eef2f1; }
+.login-container h2 { color: #2e7d32; margin-bottom: 8px; font-size: 26px; font-weight: 700; }
+.login-container p.subtitle { color: #888; margin-bottom: 25px; font-size: 14px; }
+.form-group { text-align: left; margin-bottom: 20px; }
+.form-group label { display: block; margin-bottom: 6px; font-size: 13px; font-weight: 600; color: #555; }
+.input-box { width: 100%; padding: 12px 15px; border: 1px solid #ccc; border-radius: 8px; font-size: 14px; transition: all 0.3s ease; background: #fafafa; outline: none; }
+.input-box:focus { border-color: #4CAF50; background: white; box-shadow: 0 0 0 3px rgba(76, 175, 80, 0.15); }
+.error-msg { background: #ffebee; color: #c62828; padding: 10px; border-radius: 6px; font-size: 13px; margin-bottom: 20px; font-weight: 500; border: 1px solid #ffcdd2; }
+.btn-submit { width: 100%; background: #4CAF50; color: white; border: none; padding: 12px; border-radius: 8px; font-size: 16px; font-weight: bold; cursor: pointer; transition: background 0.3s ease; margin-top: 10px; }
+.btn-submit:hover { background: #3e8e41; }
+.footer-text { margin-top: 25px; font-size: 12px; color: #aaa; }
